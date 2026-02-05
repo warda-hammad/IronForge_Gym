@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Minus, Plus, ShoppingBag, Trash2 } from 'lucide-react';
-import { CartItem } from '@/lib/use-cart';
+import type { CartItem } from '@/lib/use-cart';
 
 interface CartDrawerProps {
     isOpen: boolean;
